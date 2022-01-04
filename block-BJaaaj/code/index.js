@@ -24,9 +24,8 @@ alert(firstName + " " + lastName);
 const fullName = firstName + " " + lastName;
 
 // Declare three variables `name,` `newUser` and `isAdmin`.
-let name;
-let newUser;
-let isAdmin;
+let name, newUser, isAdmin;
+
 
 // Assign your name as the value of `name`.
 name = "Vikas Kumar Singh"
@@ -67,10 +66,10 @@ let amount = 4280;
 // Using mathematical operations find the solutions. `(+, -, \*, / , etc.)`
 
 // Declare a new variable `reducedAmount`. In it store the value that is 24 less than the value of amount.
-let reducedAmount = 24;
+let reducedAmount = 24 - amount;
 
 // Declare another variable `addedAmount`. It's value should be 32 more than the value of amount.
-let addedAmount = 32;
+let addedAmount = 32 + amount;
 
 // Declare a variable `multipleAmount`. It's value should be 7 times the value of amount.
 let multipleAmount = 7 * addedAmount;
