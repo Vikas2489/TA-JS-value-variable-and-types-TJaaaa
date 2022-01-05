@@ -23,7 +23,7 @@ alert(firstName + lastName);
 // Create a new varaible using `const` named `fullName` and assign the fullname using firstName and lastName seperated by space.
 // const fullName = firstName + " " + lastName;
 
-const fullname = `${firstName} ${lastName}`
+const fullname = `${firstName} ${lastName}`;
 
 // Declare three variables `name,` `newUser` and `isAdmin`.
 let name, newUser, isAdmin;
