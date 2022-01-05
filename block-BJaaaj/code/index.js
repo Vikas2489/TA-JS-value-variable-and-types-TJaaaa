@@ -21,7 +21,7 @@ lastName = "Snow";
 alert(firstName + " " + lastName);
 
 // Create a new varaible using `const` named `fullName` and assign the fullname using firstName and lastName seperated by space.
-const fullName = firstName + " " + lastName;
+// const fullName = firstName + " " + lastName;
 
 const fullname = `${firstName} + ${lastname}`
 
@@ -30,13 +30,13 @@ let name, newUser, isAdmin;
 
 
 // Assign your name as the value of `name`.
-name = "Vikas Kumar Singh"
+name = "Vikas Kumar Singh";
 
 // Assign the value of `name` to `newUser`.
-newUser = name
+newUser = name;
 
 // Set the value of `isAdmin` to `true`.
-isAdmin = true
+isAdmin = true;
 
 // Alert the values of all the three variables.
 alert(isAdmin);
@@ -50,7 +50,7 @@ var wiseMan = "Tyrion Lannister";
 // Follow instructions and do the following. In case of an error write the error in comment
 
 // Reassign the value of `wiseMan` to "Samwell Tarly"
-// Uncaught SyntaxError: Identifier 'wiseMan' has already been declared
+wiseMan = "Samwell Tarly";
 
 // Declare a variable `userName` with value "Lysa Arryn"
 let userName = "Lysa Arryn";
@@ -68,7 +68,7 @@ let amount = 4280;
 // Using mathematical operations find the solutions. `(+, -, \*, / , etc.)`
 
 // Declare a new variable `reducedAmount`. In it store the value that is 24 less than the value of amount.
-let reducedAmount = 24 - amount;
+let reducedAmount = amount - 24;
 
 // Declare another variable `addedAmount`. It's value should be 32 more than the value of amount.
 let addedAmount = 32 + amount;
