@@ -74,7 +74,7 @@ let reducedAmount = amount - 24;
 let addedAmount = 32 + amount;
 
 // Declare a variable `multipleAmount`. It's value should be 7 times the value of amount.
-let multipleAmount = 7 * addedAmount;
+let multipleAmount = 7 * amount;
 
 // Declare a variable `dividedAmount`. It should store the resultant of amount divided by 57.
 let dividedAmount = amount / 57;
