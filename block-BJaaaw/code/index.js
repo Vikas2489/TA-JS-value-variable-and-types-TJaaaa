@@ -160,7 +160,7 @@ switch (true) {
 
 let weatherCondition = prompt("What is the weather like outside?");
 
-// if ("sunny") { alert(`Wear a T-shirt`); } else if ("rainy") { alert(`Don't forget to take your raincoat`); } else if ("hot") { alert(`Get a hanky`); } else if ("freezing") { alert(`Get your sweeter on`); } else { alert(`Not a valid input!`); }
+if (weatherCondition === 'sunny') { alert(`Wear a T-shirt`); } else if (weatherCondition === "rainy") { alert(`Don't forget to take your raincoat`); } else if (weatherCondition === "hot") { alert(`Get a hanky`); } else if (weatherCondition === "freezing") { alert(`Get your sweeter on`); } else { alert(`Not a valid input!`); }
 
 switch (weatherCondition) {
     case "sunny":
