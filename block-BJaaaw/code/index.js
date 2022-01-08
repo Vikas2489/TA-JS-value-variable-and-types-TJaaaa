@@ -7,7 +7,15 @@
   - `if` the number is odd print the message "number is odd"
 */
 
+let num = Number(prompt("Enter any number?"));
+if (num % 2 === 0) { alert("number is even"); } else alert("number is odd");
+
+
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
+let num1 = Number(prompt("Enter any number?"));
+let num2 = Number(prompt("Enter any number?"));
+if (num1 === highest) { alert(true); } else(num2 === highest) { alert(true); }
+
 
 // 3. Convert the above code using`?` terniary operator
 
