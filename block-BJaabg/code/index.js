@@ -15,4 +15,10 @@ var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
 
+for (i = 0; i >= bank_balance; i - PHONE_PRICE) {
+
+    console.log(bank_balance)
+}
+
+
 // ⛑ Answer of the above will `$334.76`.
